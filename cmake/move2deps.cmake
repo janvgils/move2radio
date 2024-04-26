@@ -65,8 +65,8 @@ MOVEII_ADD_DEP(appimagetool
   c13026b9ebaa20a17e7e0a4c818a901f0faba759801d8ceab3bb6007dde00372)
 
 MOVEII_ADD_DEP(miniconda
-  https://repo.anaconda.com/miniconda/Miniconda2-4.5.11-Linux-x86_64.sh
-  0e23e8d0a1a14445f78960a66b363b464b889ee3b0e3f275b7ffb836df1cb0c6)
+  https://repo.anaconda.com/miniconda/Miniconda2-4.7.10-Linux-x86_64.sh
+  9b1c7899f3bfcd520203eb7d51bfe456e25e5700dfa877c09bd2dbb028c305d8)
 
 MOVEII_ADD_DEP(libiconv
   https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.15.tar.gz
