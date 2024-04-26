@@ -8,7 +8,7 @@ IF(CONDA_ENV)
 	SET(CONDA_PATH ${DEPS_PATH}/conda_env)
 	ADD_CUSTOM_COMMAND(OUTPUT ${CONDA_PATH}/usr/conda_success
 	  COMMAND ${CMAKE_SOURCE_DIR}/conda_install.sh
-	    ${DEPS_PATH}/src/Miniconda2-4.5.11-Linux-x86_64.sh
+	    ${DEPS_PATH}/src/Miniconda2-4.7.10-Linux-x86_64.sh
 	    ${CONDA_PATH}/usr
 	  DEPENDS miniconda ${CMAKE_SOURCE_DIR}/conda_install.sh)
   ENDIF()
